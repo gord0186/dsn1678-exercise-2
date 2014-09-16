@@ -124,3 +124,36 @@ body {
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
 }
+
+.chart__bar{
+	transition: all 1000ms linear;
+	
+}
+
+.chart__bar:hover,
+.chart__bar:focus,
+.chart__bar:active{
+	 background-color:rgba(129,214,246,1.00);
+}
+
+.chart__item{
+	transition: all 1000ms linear;
+}
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+	background-color:rgba(186,182,182,.60);
+}
+
+.chart__label{
+	transition: all 1000ms linear;
+}
+
+.chart__label:hover,
+.chart__label:focus,
+.chart__label:active{
+	color:#fff;
+}
+
+
