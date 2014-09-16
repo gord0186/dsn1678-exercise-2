@@ -125,15 +125,17 @@ body {
   border-top: 10px solid #000;
 }
 
+
+/*_____transition_____*/
+
 .chart__bar{
 	transition: all 1000ms linear;
-	
 }
 
 .chart__bar:hover,
 .chart__bar:focus,
 .chart__bar:active{
-	 background-color:rgba(129,214,246,1.00);
+	 background-color:rgba(127, 219, 255, 1.00);
 }
 
 .chart__item{
@@ -143,8 +145,8 @@ body {
 .chart__item:hover,
 .chart__item:focus,
 .chart__item:active{
-	background-color:rgba(186,182,182,.60);
-}
+  background-color: rgba(204, 204, 204, 1.00);
+	}
 
 .chart__label{
 	transition: all 1000ms linear;
